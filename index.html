@@ -5,39 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Judith Retzlaff</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header>
-      <h1>Hi, I'm Judith</h1>
-      <p>Writer, Translator and SE-Optimiser.</p>
-      <p>Web Developer to be...</p>
-      <nav>
-        <ul>
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#projects">Previous Projects</a></li>
-        </ul>
-      </nav>
-      <img
-        src="https://images.unsplash.com/photo-1524117074681-31bd4de22ad3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1160&q=80"
-        alt="woman with emoticon balloon"
-        width="300px"
-      />
+      <div id="headerFlex">
+        <div id="introTextContainer" class="child">
+          <h1>Hi, I'm Judith</h1>
+          <p id="subline">
+            Writer, Translator and SE-Optimiser. Web Developer to be...
+          </p>
+
+          <nav>
+            <ul>
+              <li><a href="#about">About Me</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#contact">Contact Me</a></li>
+              <li><a href="#projects">Previous Projects</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="child">
+          <img
+            src="https://images.unsplash.com/photo-1524117074681-31bd4de22ad3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1160&q=80"
+            alt="woman with emoticon balloon"
+            width="300px"
+          />
+        </div>
+      </div>
     </header>
     <main>
       <section id="skills">
         <h2>I can do...</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Javascript</li>
-          <li>Copywriting</li>
-          <li>SEO</li>
-          <li>Content Management</li>
-        </ul>
+        <div class="flex-box-container">
+          <div class="flex-child">
+            <h3>Programming</h3>
+            <ul class="tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>Copywriting</li>
+              <li>SEO</li>
+              <li>Content Management</li>
+            </ul>
+          </div>
+          <div class="flex-child">
+            <h3>Content</h3>
+            <ul class="tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>Copywriting</li>
+              <li>SEO</li>
+              <li>Content Management</li>
+            </ul>
+          </div>
+          <div class="flex-child">
+            <h3>Soft Skills</h3>
+            <ul class="tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>Copywriting</li>
+              <li>SEO</li>
+              <li>Content Management</li>
+            </ul>
+          </div>
+        </div>
       </section>
-      <section id="contact">
+      <section class="light" id="contact">
         <h2>Reach out via</h2>
         <ul>
           <li>GitHub</li>
@@ -65,7 +101,7 @@
           </ul>
         </div>
       </section>
-      <section id="projects">
+      <section class="light" id="projects">
         <h2>Previous Projects</h2>
         <img
           src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1055&q=80"
