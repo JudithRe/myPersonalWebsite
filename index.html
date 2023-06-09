@@ -9,10 +9,10 @@
   </head>
   <body>
     <header>
-      <div id="headerFlex">
-        <div id="introTextContainer" class="child">
+      <div class="headerFlex">
+        <div class="introTextContainer" class="child">
           <h1>Hi, I'm Judith</h1>
-          <p id="subline">
+          <p class="subline">
             Writer, Translator and SE-Optimiser. Web Developer to be...
           </p>
 
@@ -73,17 +73,20 @@
           </div>
         </div>
       </section>
-      <section class="light" id="contact">
-        <h2>Reach out via</h2>
-        <ul>
-          <li>GitHub</li>
-          <li>LinkedIn</li>
-          <li>Mail</li>
-        </ul>
+      <section class="fullwidth-section" id="contact">
+        <div class="fullwidth-section-content">
+          <h2>Reach out via</h2>
+          <ul>
+            <li>GitHub</li>
+            <li>LinkedIn</li>
+            <li>Mail</li>
+          </ul>
+        </div>
       </section>
       <section id="about">
-        <div>
-          <h2>About Me</h2>
+        <div class="flex-box-container">
+          <div class="flex-child flex-child-50">   
+             <h2>About Me</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
             alias repudiandae beatae repellendus laboriosam quia, laborum
@@ -91,7 +94,7 @@
             nisi, aperiam iste fuga numquam est.
           </p>
         </div>
-        <div>
+        <div class="flex-child flex-child-50">
           <h3>Important Dates</h3>
           <ul>
             <li>2022: This and that</li>
@@ -100,24 +103,35 @@
             <li>2022: This and that</li>
           </ul>
         </div>
+        </div>
       </section>
-      <section class="light" id="projects">
-        <h2>Previous Projects</h2>
+      <section id="projects">
+        <h3>Previous Projects</h3>
+        <div class="flex-box-container">
+          <div class="flex-child-w-img">
         <img
           src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1055&q=80"
           alt="a computer"
           width="175"
         />
-        <img
-          src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1055&q=80"
-          alt="a computer"
-          width="175"
-        />
-        <img
-          src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1055&q=80"
-          alt="a computer"
-          width="175"
-        />
+          </div>
+          <div class="flex-child-w-img">
+            <img
+              src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1055&q=80"
+              alt="a computer"
+              width="175"
+            />
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas inventore voluptatibus, cupiditate nostrum.</p>
+              </div>
+              <div class="flex-child-w-img">
+                <img
+                  src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1055&q=80"
+                  alt="a computer"
+                  width="175"
+                />
+                  </div>
+        </div>
+        </div>
       </section>
     </main>
     <footer>
