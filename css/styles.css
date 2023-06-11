@@ -3,6 +3,7 @@
 * {
   box-sizing: border-box;
   font-family: sans-serif;
+  color: #28313e;
 }
 
 h1 {
@@ -12,16 +13,23 @@ h1 {
 
 h2 {
   font-size: 2em;
+  color: #28313e;
 }
 
 h3 {
   font-size: 1.5em;
+  color: #ca9657;
 }
 
 /* Header Area Styling */
 
 header {
   padding: 25px 0 0 0;
+}
+
+header h1,
+header p {
+  color: #f6f5f0;
 }
 
 header img {
@@ -54,16 +62,18 @@ nav li {
 }
 
 nav a {
-  background-color: #ba6848;
-  border-radius: 5px;
+  /* background-color: #f7a521; */
+  background-color: #f6f5f0;
+  border-radius: 50px;
   text-decoration: none;
   margin-right: 15px;
-  color: #f6f5f0;
-  padding: 8px 15px;
+  color: #28313e;
+  padding: 10px 25px;
 }
 
 .introTextContainer {
-  background-color: #28313e;
+  /* background-color: #28313e; */
+  background-color: #98c4c5;
   color: #f6f5f0;
   border-radius: 10px;
   padding: 40px 50px 40px 30px;
@@ -83,9 +93,16 @@ section {
 .fullwidth-section {
   width: 100%;
   border-radius: 0px;
-  background-color: #28313e;
-  color: #f6f5f0;
+  /* background-color: #28313e; */
+  background-color: #98c4c5;
   margin: 25px 0;
+}
+
+.fullwidth-section h2,
+.fullwidth-section h3,
+.fullwidth-section p,
+.fullwidth-section li {
+  color: #f6f5f0;
 }
 
 .fullwidth-section > div {
@@ -104,14 +121,14 @@ section {
 .flex-child {
   min-width: 175px;
   max-width: 250px;
-  background-color: #f6f5f0;
+  /* background-color: #f6f5f0; */
   padding: 15px;
   border-radius: 10px;
   margin: 5px 0;
 }
 
 .flex-child:nth-of-type(2) {
-  margin: 0 20px;
+  margin: 5px 20px;
 }
 
 .flex-child-w-img {
@@ -129,7 +146,7 @@ section {
 }
 
 .flex-child-w-img:nth-of-type(2) {
-  margin: 0 20px;
+  margin: 5px 20px;
 }
 
 .flex-child-w-img p {
@@ -141,12 +158,8 @@ section {
   max-width: 500px;
 }
 
-.gray {
-  background-color: #8d9faa;
-}
-
-.light {
-  background-color: #f6f5f0;
+#skills h3 {
+  color: #ca9657;
 }
 
 .tags {
@@ -159,13 +172,10 @@ section {
 .tags li {
   list-style: none;
   margin: 5px;
-  padding: 10px;
-  border-radius: 5px;
-  background-color: #8d9faa;
-}
-
-#skills {
-  margin-top: 0px;
+  padding: 15px;
+  border-radius: 50px;
+  background-color: #ca9657;
+  color: #f6f5f0;
 }
 
 /* Footer Styling */
